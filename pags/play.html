@@ -10,8 +10,8 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <div class="container-fluid">
 	    <a class="navbar-brand" href="../index.html">
-		    <img src="../img/D100.png" alt="" width="50" height="50" class="d-inline-block align-top">
-		    D100
+		    <img src="../img/D100.png" alt="" width="50" height="50" class="d-inline-block align-top align-middle">
+		    <span class="align-middle">D100</span>
 		</a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
@@ -36,11 +36,58 @@
 	    <!-- ToDo: Añadir modal en el login/signup, si está bien fresco cuenta como pagina nueva y ya tengo las cuatro) -->
 	  </div>
 	</nav>	
-	
+	<div class="container">
 
 
+  <div class="row">
+    <div class="col-3">
+    	<img src="../img/D4.jpg" alt="D4" width="200" height="200"><br><br>
+     <button type="button" class="btn btn-danger rounded-pill align-center" onclick="D4()"><b>D4</b></button>
+     <p id="D5"></p>
+    </div>
+    <div class="col-3">
+    	<img src="../img/D6.png" alt="D6" width="200" height="200"><br><br>
+      <button type="button" class="btn btn-danger rounded-pill align-center" onclick="D6()"><b>D6</b></button>
+      <p id="D6"></p>
+    </div>
+    <div class="col-3">
+    	<img src="../img/D8.png" alt="D8" width="200" height="200"><br><br>
+      <button type="button" class="btn btn-danger rounded-pill align-center" onclick="D8()"><b>D8</b></button>
+      <p id="D9"></p>
+    </div>
+    <div class="col-3">
+    	<img src="../img/D10.png" alt="D10" width="200" height="200"><br><br>
+      <button type="button" class="btn btn-danger rounded-pill align-center" onclick="D10()"><b>D10</b></button>
+      <p id="D10"></p>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br>
+  <div class="row">
+  	<div class="col-4">
+  		<img src="../img/D12.png" alt="D12" width="200" height="200"><br><br>
+     <button type="button" class="btn btn-danger rounded-pill" onclick="D12()"><b>D12</b></button>
+     <p id="D12"></p>
+    </div>
+    <div class="col-4">
+    	<img src="../img/D20.png" alt="D20" width="200" height="200"><br><br>
+     <button type="button" class="btn btn-danger rounded-pill align-center" onclick="D20()"><b>D20</b></button>
+     <p id="D20"></p>
+    </div>
+    <div class="col-4">
+    	<img src="../img/D100.png" alt="D100" width="200" height="200"><br><br>
+     <button type="button" class="btn btn-danger rounded-pill align-center" onclick="D100()"><b>D100</b></button>
+     <p id="D100"></p>
+    </div>
+  </div>
+</div>
 
-
+	<script src="../js/D4.js"></script>
+	<script src="../js/D6.js"></script>
+	<script src="../js/D8.js"></script>
+	<script src="../js/D10.js"></script>
+	<script src="../js/D12.js"></script>
+	<script src="../js/D20.js"></script>
+	<script src="../js/D100.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
