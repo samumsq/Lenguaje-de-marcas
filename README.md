@@ -1,7 +1,7 @@
 # Lenguaje-de-marcas
 Repositorio para el trabajo final de lenguaje de marcas. Emulación de la web Rol20
 
-Para poner en funcionamiento este proyecto necesitas tener instalado apache/nginx, PHP y el programa sendmail.
+Para poner en funcionamiento este proyecto necesitas tener instalado apache/nginx, mysql, PHP y el programa sendmail.
 
 Copiar el contenido del git hub en la carpeta que utilice como referencia el programa apache/nginx. En mi caso utilizando Debian Buster está en el directorio /var/www/html
 
